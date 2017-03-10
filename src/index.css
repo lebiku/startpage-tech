@@ -1,0 +1,54 @@
+.kapo-Grid img{
+  width: 100%;
+}
+
+.kapo-Grid .ms-Overlay {
+  left: 8px;
+  right: 8px;
+  bottom: 4px;
+}
+
+.kapo-Overlay {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.kapo-Overlay-Content {
+  cursor: default;
+}
+
+.kapo-Overlay-Content.ms-List {
+  background-color: rgba(0,0,0,.4);
+  padding: 5px 10px;
+}
+
+.kapo-Overlay-Content a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.kapo-Overlay-Content a:hover {
+  color: yellow;
+}
+
+.kapo-extra {
+  margin-top: 10px;
+  color: #ccc;
+}
+
+/* Adjust Grid Layout for Kapo */
+@media screen and (min-width : 1024px)  {
+  .kapo-Grid .ms-u-xl2 {
+    width: 20%;
+  }
+}
+
+@media screen and (min-width : 640px)  {
+  .kapo-Grid .ms-Grid-row {
+    margin-bottom: 20px;
+  }
+}
+

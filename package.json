@@ -1,0 +1,47 @@
+{
+  "name": "react_webpack",
+  "version": "1.0.0",
+  "description": "React Webpack example",
+  "scripts": {
+    "lint": "tslint ./src/**/*.ts -t verbose",
+    "build": "webpack --config webpack.config.js",
+    "server": "webpack-dev-server --content-base ./src --progress --inline --port 3000",
+    "prod-server": "webpack-dev-server --config webpack.config.prod.js --content-base ./dist --progress --inline --port 3003",
+    "launch": "start http://localhost:3000/",
+    "prod-launch": "start http://localhost:3003/",
+    "start": "npm-run-all lint launch server",
+    "no-browser": "npm-run-all server",
+    "clean-dist": "rimraf ./dist && mkdir dist",
+    "dist-env": "set NODE_ENV=production",
+    "predist": "npm-run-all dist-env clean-dist",
+    "dist": "webpack -p --config ./webpack.config.prod.js",
+    "postdist": "npm-run-all prod-launch prod-server"
+  },
+  "author": "Markus Wälchli",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^0.14.51",
+    "@types/react-dom": "^0.14.19",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "webpack": "^1.14.0",
+    "whatwg-fetch": "^2.0.1"
+  },
+  "devDependencies": {
+    "bluebird": "^3.4.6",
+    "css-loader": "^0.26.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.24.1",
+    "http-server": "^0.9.0",
+    "npm-run-all": "^3.1.2",
+    "office-ui-fabric-react": "^0.78.2",
+    "rimraf": "^2.5.4",
+    "source-map-loader": "^0.1.5",
+    "sp-pnp-js": "^1.0.6",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^1.2.2",
+    "tslint": "^4.5.1",
+    "typescript": "<=2.2.0",
+    "webpack-dev-server": "^1.9.0"
+  }
+}
