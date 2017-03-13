@@ -3,7 +3,7 @@ import { Overlay } from "office-ui-fabric-react";
 
 import Kachel from "./Kachel";
 
-export interface OverlayProps { imageUrl: string; termSetId: string; }
+export interface OverlayProps { imageUrl: string; termSetId: string; imageWidth: number; }
 
 export default class OverlayDark extends React.Component<OverlayProps, any> {
   constructor(props: OverlayProps) {
@@ -14,7 +14,8 @@ export default class OverlayDark extends React.Component<OverlayProps, any> {
     this.state = {
       isOverlayVisible: false,
       imageUrl : this.props.imageUrl,
-      termSetId: this.props.termSetId
+      termSetId: this.props.termSetId,
+      imageWidth: this.props.imageWidth
     };
   }
 
@@ -22,10 +23,13 @@ export default class OverlayDark extends React.Component<OverlayProps, any> {
     let { isOverlayVisible } = this.state;
     let { imageUrl } = this.state;
     let { termSetId } = this.state;
+    let { imageWidth } = this.state;
 
     return (
       <div className="kapo-Overlay">
-        <img src={imageUrl}  onClick={ this._onClick }/>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox={"0 0 " + imageWidth + " 500"} onClick={ this._onClick }>
+          <image id="Ebene_0" data-name="Ebene 0" width={imageWidth} height="500" xlinkHref={imageUrl}/>
+        </svg>
         
         { isOverlayVisible && (
           <Overlay isDarkThemed={ false } onClick={ this._onClick }>
