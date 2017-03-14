@@ -36,7 +36,7 @@ export default class TaxonomyClient {
             let currentTerm = termsEnumerator.get_current();
             let name = currentTerm.get_name();
             let id = currentTerm.get_id();
-            let url = currentTerm.get_localCustomProperties()["URL"];
+            let url = _spPageContextInfo.currentLanguage === 1036 ? currentTerm.get_localCustomProperties()["URL_FR"] : currentTerm.get_localCustomProperties()["URL_DE"];
             let extra = _spPageContextInfo.currentLanguage === 1036 ? currentTerm.get_localCustomProperties()["ExtraFr"] : currentTerm.get_localCustomProperties()["ExtraDe"];
             let target = currentTerm.get_localCustomProperties()["Target"];
 

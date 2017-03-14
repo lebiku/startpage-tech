@@ -16,7 +16,8 @@
                         <pnp:Label Language="1033" Value="Ticket" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="System-Probleme" ID="EC9BEE72-09BB-4BBB-A87F-8E348F619454" IsAvailableForTagging="false" Language="1031">
@@ -25,7 +26,8 @@
                         <pnp:Label Language="1033" Value="System-Probleme" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="Passwortpflege" ID="65F1354A-84F6-488D-98DB-1E4C811D6A71" IsAvailableForTagging="false" Language="1031">
@@ -34,7 +36,8 @@
                         <pnp:Label Language="1033" Value="Passwortpflege" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                   </pnp:Terms>
@@ -47,7 +50,8 @@
                         <pnp:Label Language="1033" Value="eMat Büro" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="eMat Einsatz" ID="0F7E3AE5-366F-4FA0-A305-8D35BBE27354" IsAvailableForTagging="false" Language="1031">
@@ -56,7 +60,8 @@
                         <pnp:Label Language="1033" Value="eMat Einsatz" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="eMat Liquidation" ID="D296413F-90B8-467C-A56B-98D7D362CE15" IsAvailableForTagging="false" Language="1031">
@@ -65,12 +70,14 @@
                         <pnp:Label Language="1033" Value="eMat Liquidation" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="eShop" ID="AE0B035A-733B-4138-B46D-C5061D7D8589" IsAvailableForTagging="false" Language="1031">
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                   </pnp:Terms>
@@ -83,7 +90,8 @@
                         <pnp:Label Language="1033" Value="Bereitstellung" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="Material abholen" ID="11C6D96A-1032-4994-9DDA-90D6F15BED36" IsAvailableForTagging="false" Language="1031">
@@ -92,7 +100,8 @@
                         <pnp:Label Language="1033" Value="Material abholen" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="Zustellung" ID="073C44D0-BDC1-4D4A-8144-D14C6F3CB55F" IsAvailableForTagging="false" Language="1031">
@@ -101,8 +110,9 @@
                         <pnp:Label Language="1033" Value="Zustellung" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
-                      </pnp:LocalCustomProperties>                     
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
+                    </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="Reperaturen" ID="74FA256B-BBF8-432A-A652-11F0987FCCBC" IsAvailableForTagging="false" Language="1031">
                       <pnp:Labels>
@@ -110,7 +120,8 @@
                         <pnp:Label Language="1033" Value="Reperaturen" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                                                                               
                     </pnp:Term>
                     <pnp:Term Name="Ausweisstelle" ID="24B7D858-4346-4524-97C5-FA4EC904E63A" IsAvailableForTagging="false" Language="1031">
@@ -119,7 +130,8 @@
                         <pnp:Label Language="1033" Value="Ausweisstelle" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="Einsatzmittel+Waffen" ID="B349B737-F53A-4177-9E5B-34C3302F4C46" IsAvailableForTagging="false" Language="1031">
@@ -128,7 +140,8 @@
                         <pnp:Label Language="1033" Value="Einsatzmittel+Waffen" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="Uniform" ID="FC73C6E8-0B93-4DCB-A186-CB4360F3353D" IsAvailableForTagging="false" Language="1031">
@@ -137,7 +150,8 @@
                         <pnp:Label Language="1033" Value="Uniform" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>                        
                   </pnp:Terms>
@@ -150,7 +164,8 @@
                         <pnp:Label Language="1033" Value="Wartung/Unterhalt" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="Reparaturen" ID="A76CE5B2-4F95-42EE-95A5-9FB31E0B7AE1" IsAvailableForTagging="false" Language="1031">
@@ -159,7 +174,8 @@
                         <pnp:Label Language="1033" Value="Reparaturen" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="Umbauten" ID="430339EE-D1D6-4D3E-8242-85E4BCF0616C" IsAvailableForTagging="false" Language="1031">
@@ -168,7 +184,8 @@
                         <pnp:Label Language="1033" Value="Umbauten" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="Selbstfahrerflotte" ID="BF7B5DBD-9079-4C60-A26C-001656723B04" IsAvailableForTagging="false" Language="1031">
@@ -177,7 +194,8 @@
                         <pnp:Label Language="1033" Value="Selbstfahrerflotte" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                                                                               
                     </pnp:Term>
                   </pnp:Terms>
@@ -190,7 +208,8 @@
                         <pnp:Label Language="1033" Value="Neue Bedürfnisse" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="Zusatzbeschaffungen" ID="1F04AB0C-ECAC-42F8-BDB7-5CD46CBC997B" IsAvailableForTagging="false" Language="1031">
@@ -199,7 +218,8 @@
                         <pnp:Label Language="1033" Value="Zusatzbeschaffungen" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="Ergänzungen" ID="0DB988AC-9E89-453D-9078-E3F09B3240B3" IsAvailableForTagging="false" Language="1031">
@@ -208,7 +228,8 @@
                         <pnp:Label Language="1033" Value="Ergänzungen" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="Änderungen" ID="8E5D1A28-85C1-4123-9899-6A38D331E55E" IsAvailableForTagging="false" Language="1031">
@@ -217,7 +238,8 @@
                         <pnp:Label Language="1033" Value="Änderungen" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                                                                               
                     </pnp:Term>
                   </pnp:Terms>
@@ -230,13 +252,15 @@
                         <pnp:Label Language="1033" Value="AVANTI - CATS / Dienstliste / Office" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                         <pnp:Property Key="Target" Value="_blank" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="BE-Print" ID="1D70EA82-6EA8-4247-ACAC-BA00E1BA2D55" IsAvailableForTagging="false" Language="1031">
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="Drucker" ID="9339A520-980F-47EE-8D6C-A05ABCD149C2" IsAvailableForTagging="false" Language="1031">
@@ -245,37 +269,44 @@
                         <pnp:Label Language="1033" Value="Drucker EN" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="iPhone" ID="1ACEB4A4-46DF-4A03-8751-19F7FFF91719" IsAvailableForTagging="false" Language="1031">
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                                                                               
                     </pnp:Term>
                     <pnp:Term Name="eMat" ID="8B354808-7C24-4DFD-824E-2DB3BEC2C6BD" IsAvailableForTagging="false" Language="1031">
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                                                                               
                     </pnp:Term>
                     <pnp:Term Name="ePers" ID="0ED0ACB1-E7CC-4795-9DB7-62D665EDA2B3" IsAvailableForTagging="false" Language="1031">
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                                                                               
                     </pnp:Term>
                     <pnp:Term Name="Fax" ID="FEAC1498-B05B-4489-B18C-3AAFD31313BD" IsAvailableForTagging="false" Language="1031">
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                                                                               
                     </pnp:Term>
                     <pnp:Term Name="GERES" ID="C6D43C19-F038-41D0-A430-EBEBA3AAAAA6" IsAvailableForTagging="false" Language="1031">
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                                                                               
                     </pnp:Term>
                     <pnp:Term Name="Lync" ID="BC99DDEA-597A-4A15-B5C2-9BBA486380FF" IsAvailableForTagging="false" Language="1031">
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                                                                               
                     </pnp:Term>
                     <pnp:Term Name="Smartcard" ID="5FEC49CC-F0BE-4EDE-85A1-CE87441F98A5" IsAvailableForTagging="false" Language="1031">
@@ -284,7 +315,8 @@
                         <pnp:Label Language="1033" Value="Smartcard" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                                                                               
                     </pnp:Term>
                     <pnp:Term Name="Wireless (UDM)" ID="F40A31D1-871E-4036-A2F8-EE4ACC8742A0" IsAvailableForTagging="false" Language="1031">
@@ -293,7 +325,8 @@
                         <pnp:Label Language="1033" Value="Wireless (UDM)" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                                                                               
                     </pnp:Term>
                     <pnp:Term Name="Foto- und Filmkameras" ID="1B71D0FE-4D06-4EE2-8154-E2AD0A154080" IsAvailableForTagging="false" Language="1031">
@@ -302,17 +335,20 @@
                         <pnp:Label Language="1033" Value="Foto- und Filmkameras" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                                                                               
                     </pnp:Term>
                     <pnp:Term Name="Magix Video Pro X3" ID="8FA2FBBC-8C4B-486C-8231-5BCBA09ECF5A" IsAvailableForTagging="false" Language="1031">
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                                                                               
                     </pnp:Term>
                     <pnp:Term Name="Fotolia" ID="637D25BE-49D6-4711-871E-B6D032686492" IsAvailableForTagging="false" Language="1031">
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                                                                               
                     </pnp:Term>
                     <pnp:Term Name="Bibliotheken" ID="67EA3C64-24D2-472B-ADD1-C8EA011AC7C4" IsAvailableForTagging="false" Language="1031">
@@ -323,7 +359,8 @@
                       <pnp:LocalCustomProperties>
                         <pnp:Property Key="ExtraDe" Value="Weitere Anleitungen unter:" />
                         <pnp:Property Key="ExtraFr" Value="D'autres instructions sous" />
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                                                                               
                     </pnp:Term>                                                                                                                                                                
                   </pnp:Terms>
@@ -336,7 +373,8 @@
                         <pnp:Label Language="1033" Value="Bauten und Logistik" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="Telekommunikation und Funk" ID="D9B3B4E0-CE60-4128-A8BA-D20C0F5B72C7" IsAvailableForTagging="false" Language="1031">
@@ -345,7 +383,8 @@
                         <pnp:Label Language="1033" Value="Telekommunikation und Funk" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="Flottenmanagement" ID="903DBF2D-367C-48B0-98FE-584DAA18B82D" IsAvailableForTagging="false" Language="1031">
@@ -354,7 +393,8 @@
                         <pnp:Label Language="1033" Value="Flottenmanagement" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="Informatik" ID="C6FE695C-A9F5-4796-BFF2-F8C8063BBF22" IsAvailableForTagging="false" Language="1031">
@@ -363,7 +403,8 @@
                         <pnp:Label Language="1033" Value="Informatik" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                                                                               
                     </pnp:Term>
                     <pnp:Term Name="Serviceleistungen und Servicelevel der Abteilung Technik (SLA)" ID="30ED8576-FB7B-448E-A212-C683EF8E2606" IsAvailableForTagging="false" Language="1031">
@@ -372,7 +413,8 @@
                         <pnp:Label Language="1033" Value="Serviceleistungen und Servicelevel der Abteilung Technik (SLA)" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                                                                               
                     </pnp:Term>
                     <pnp:Term Name="Projekte" ID="3AEB5540-55E1-41D7-8800-E062F6B2CE2C" IsAvailableForTagging="false" Language="1031">
@@ -381,7 +423,8 @@
                         <pnp:Label Language="1033" Value="Projekte" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                                                                               
                     </pnp:Term>
                     <pnp:Term Name="ICT Strategie" ID="F8BFB107-78C4-4FB2-BC70-834C16A35F6B" IsAvailableForTagging="false" Language="1031">
@@ -390,7 +433,8 @@
                         <pnp:Label Language="1033" Value="ICT Strategie" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                                                                               
                     </pnp:Term>
                     <pnp:Term Name="Organisation" ID="27B0476F-1A67-4AA3-83C1-D5F915918DA0" IsAvailableForTagging="false" Language="1031">
@@ -399,7 +443,8 @@
                         <pnp:Label Language="1033" Value="Organisation" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="/abt/tech/de-DE/seiten/organisation.aspx" />
+                        <pnp:Property Key="URL_FR" Value="/abt/tech/fr-FR/pages/organisation.aspx" />
                       </pnp:LocalCustomProperties>                                                                               
                     </pnp:Term>                                                                                
                   </pnp:Terms>
@@ -412,7 +457,8 @@
                         <pnp:Label Language="1033" Value="Foto" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="Film/Audio" ID="D42F46A1-5F08-43FA-BF9A-EA635574F620" IsAvailableForTagging="false" Language="1031">
@@ -421,7 +467,8 @@
                         <pnp:Label Language="1033" Value="Film/Audio" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                     <pnp:Term Name="Newsletter" ID="22D76799-2BCA-46DA-81D3-62C01EEBC76E" IsAvailableForTagging="false" Language="1031">
@@ -430,7 +477,8 @@
                         <pnp:Label Language="1033" Value="Newsletter" />
                       </pnp:Labels>
                       <pnp:LocalCustomProperties>
-                        <pnp:Property Key="URL" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_DE" Value="http://www.example.com" />
+                        <pnp:Property Key="URL_FR" Value="http://www.example.com" />
                       </pnp:LocalCustomProperties>                     
                     </pnp:Term>
                   </pnp:Terms>

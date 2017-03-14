@@ -2,7 +2,6 @@ import * as React from "react";
 // import { css } from 'office-ui-fabric-react';
 import "office-ui-fabric-react/dist/css/fabric.min.css";
 
-import Kachel from "./Kachel";
 import OverlayDark from "./Overlay";
 
 import { Translations } from "../assets/icons";
