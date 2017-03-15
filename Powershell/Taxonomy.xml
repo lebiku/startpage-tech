@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2015/12/ProvisioningSchema">
-  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.0.1601.0, Culture=neutral, PublicKeyToken=null" />
-  <pnp:Templates ID="CONTAINER-TAXONOMIES">
-    <pnp:ProvisioningTemplate ID="TAXONOMIES" Version="1">
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2016/05/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.13.1703.0, Culture=neutral, PublicKeyToken=3751622786b357c2" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-D8D1B05359C64F05A97E56E9674D98D0">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-D8D1B05359C64F05A97E56E9674D98D0" Version="1" BaseSiteTemplate="BLANKINTERNET#0">
       <pnp:TermGroups>
-        <pnp:TermGroup Name="Kapo Intranet" ID="44363434-a206-4fc7-93c3-51ffbd77184c">
+        <pnp:TermGroup Name="{sitecollectiontermgroupname}" Description="" SiteCollectionTermGroup="true">
           <pnp:TermSets>
             <pnp:TermSet Name="Startseite Technik" ID="a362cc4b-07a2-4c5d-9c3d-8d87100b5810" Language="1031">
               <pnp:Terms>
@@ -491,3 +491,4 @@
     </pnp:ProvisioningTemplate>
   </pnp:Templates>
 </pnp:Provisioning>
+

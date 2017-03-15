@@ -1,0 +1,16 @@
+1. Pnp Powershell Module installieren 
+
+  ## Windows 10 Rechner
+  #Install-Module SharePointPnPPowerShellOnline -AllowClobber
+  #Install-Module SharePointPnPPowerShell2016 -AllowClobber
+  #Install-Module SharePointPnPPowerShell2013 -AllowClobber -Force
+
+  # Alternativ auch nicht Windows10 Rechnern
+  https://download.microsoft.com/download/4/1/A/41A369FA-AA36-4EE9-845B-20BCC1691FC5/PackageManagement_x64.msi herunterladen
+
+  Install-PowerShellPackageManagement
+  Install-Module 'SharePointPnPPowerShell2013' -Force -SkipPublisherCheck 
+
+2. Main.ps1 ausführen
+
+3. Die Seiten default.aspx ggf. im SharePoint manuell publishen. PnP untersützt dies momentan noch nicht. 
