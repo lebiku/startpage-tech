@@ -22,13 +22,13 @@ if ($provisionGermanPage -eq $true) {
   Set-PnPFileCheckedIn -Url $relativePortalUrl
 }
 
-if ($provisionFrenchPage -eq $true) {
-  $relativeHomePageUrl = '/fr-FR/Pages/default.aspx';
-  $relativePortalUrl = $siteRelativeUrl + $relativeHomePageUrl 
+# if ($provisionFrenchPage -eq $true) {
+#   $relativeHomePageUrl = '/fr-FR/Pages/default.aspx';
+#   $relativePortalUrl = $siteRelativeUrl + $relativeHomePageUrl 
 
-  Connect-PnPOnline -url ($destinationUrl + "/fr-FR") -credentials $Credential
-  Set-PnPFileCheckedOut -Url $relativePortalUrl
+#   Connect-PnPOnline -url ($destinationUrl + "/fr-FR") -credentials $Credential
+#   Set-PnPFileCheckedOut -Url $relativePortalUrl
 
-  Add-PnPWebPartToWebPartPage -ServerRelativePageUrl $relativePortalUrl -Path '.\AppLoaderDist.webpart' -ZoneId "Header" -ZoneIndex 1
-  Set-PnPFileCheckedIn -Url $relativePortalUrl
-}
+#   Add-PnPWebPartToWebPartPage -ServerRelativePageUrl $relativePortalUrl -Path '.\AppLoaderDist.webpart' -ZoneId "Header" -ZoneIndex 1
+#   Set-PnPFileCheckedIn -Url $relativePortalUrl
+# }
